@@ -39,8 +39,6 @@ Here is an example of the output you can expect from the project.
 
 ### Annotated Video Output
 
-The script processes the input video and overlays pose landmarks and real-time joint angle data.
-
 <table align="center">
   <tr>
     <td align="center"><strong>Basketball Pose Estimation</strong></td>
@@ -56,12 +54,7 @@ The script processes the input video and overlays pose landmarks and real-time j
   </tr>
 </table>
 
-### Of course. To display your two joint angle plots side-by-side, you can use the same HTML table structure you used for the video outputs.
-
-Here is the complete code section for your README.md file.
-
-Joint Angle Plots
-After processing, the script generates plots that visualize the change in specific joint angles over the duration of the video, which is crucial for biomechanical analysis.
+## Joint Angle Plots
 
 <table align="center">
 <tr>
@@ -77,3 +70,4 @@ After processing, the script generates plots that visualize the change in specif
 </td>
 </tr>
 </table>
+
