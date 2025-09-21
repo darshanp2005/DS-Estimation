@@ -71,3 +71,9 @@ Here is an example of the output you can expect from the project.
 </tr>
 </table>
 
+## Application in Sports
+
+1.  Helps player to analyse their shooting posture
+2.  Helps coaches to replan the training sessions for players
+3.  For identifying skills
+4.  Injury prevention, Rehabilitation Support
