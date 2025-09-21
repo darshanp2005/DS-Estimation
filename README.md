@@ -11,20 +11,6 @@ This project demonstrates **pose estimation on athlete videos** using **OpenCV**
 -   Plots **joint angles over time** for detailed analysis.
 -   Supports **multiple athlete categories**: Basketball, Boxing, Football, Athletics, etc.
 
-## Folder Structure
-
-DS_PoseEsti/
-├─ Videos/
-│  ├─ basketball.mp4
-│  ├─ basketball2.mp4
-│  ├─ boxing.mp4
-│  ├─ football.mp4
-│  └─ athletics.mp4
-├─ final.ipynb
-└─ README.md
-
-## Installation
-
 1.  **Create and activate a Python virtual environment** (Python 3.11 is recommended):
     ```bash
     conda create -n pose_env python=3.11
@@ -55,12 +41,39 @@ Here is an example of the output you can expect from the project.
 
 The script processes the input video and overlays pose landmarks and real-time joint angle data.
 
-![Annotated Pose Estimation Video](assets/basketball.png)
-![Annotated Pose Estimation Video](assets/boxing.png)
+<table align="center">
+  <tr>
+    <td align="center"><strong>Basketball Pose Estimation</strong></td>
+    <td align="center"><strong>Boxing Pose Estimation</strong></td>
+  </tr>
+  <tr>
+    <td>
+      <img src="assets/basketball.png" alt="Annotated Basketball Pose Estimation" width="100%">
+    </td>
+    <td>
+      <img src="assets/boxing.png" alt="Annotated Boxing Pose Estimation" width="100%">
+    </td>
+  </tr>
+</table>
 
-### Joint Angle Plots
+### Of course. To display your two joint angle plots side-by-side, you can use the same HTML table structure you used for the video outputs.
 
+Here is the complete code section for your README.md file.
+
+Joint Angle Plots
 After processing, the script generates plots that visualize the change in specific joint angles over the duration of the video, which is crucial for biomechanical analysis.
 
-![Example of a Joint Angle Plot](assets/joinbask.png)
-![Example of a Joint Angle Plot](assets/joinfoot.png)
+<table align="center">
+<tr>
+<td align="center"><strong>Basketball Joint Angles</strong></td>
+<td align="center"><strong>Football Joint Angles</strong></td>
+</tr>
+<tr>
+<td>
+<img src="assets/joinbask.png" alt="Plot of basketball joint angles" width="100%">
+</td>
+<td>
+<img src="assets/joinfoot.png" alt="Plot of football joint angles" width="100%">
+</td>
+</tr>
+</table>
